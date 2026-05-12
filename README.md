@@ -1,60 +1,102 @@
-Bigdata-proj
-🚗 Car Price Prediction Using Machine Learning
-This project focuses on predicting car selling prices using Machine Learning techniques.
-The workflow includes data preprocessing, exploratory data analysis (EDA), data visualization, feature encoding, model training, and performance evaluation.
+# 🚗 Car Price Prediction Using Machine Learning
 
-The model is trained on the Car Dekho dataset and predicts car prices based on features such as:
+## 📌 Overview
+This project focuses on predicting car selling prices using **Machine Learning** techniques.
 
-Car Name
-Manufacturing Year
-Fuel Type
-Seller Type
-Transmission Type
-Ownership History
-Kilometers Driven
-📌 Project Workflow
-Importing required libraries
-Loading and exploring the dataset
-Data cleaning and preprocessing
-Exploratory Data Analysis (EDA)
-Data visualization using Matplotlib
-Encoding categorical features
-Splitting the dataset into training and testing sets
-Training a Linear Regression model
-Evaluating model performance using multiple metrics
-🛠 Technologies Used
-Python
-Pandas
-NumPy
-Matplotlib
-Scikit-learn
-📊 Machine Learning Model
-The project uses:
+The workflow includes:
 
-Linear Regression
-to predict the selling price of cars based on historical data.
+- Data preprocessing
+- Exploratory Data Analysis (EDA)
+- Data visualization
+- Feature encoding
+- Model training
+- Performance evaluation
 
-📈 Evaluation Metrics
+The model is trained on the **Car Dekho dataset** and predicts car prices based on features such as:
+
+- Car Name
+- Manufacturing Year
+- Fuel Type
+- Seller Type
+- Transmission Type
+- Ownership History
+- Kilometers Driven
+
+---
+
+# ⚙️ Project Workflow
+
+1. Importing required libraries  
+2. Loading and exploring the dataset  
+3. Data cleaning and preprocessing  
+4. Exploratory Data Analysis (EDA)  
+5. Data visualization using Matplotlib  
+6. Encoding categorical features  
+7. Splitting the dataset into training and testing sets  
+8. Training a Linear Regression model  
+9. Evaluating model performance using multiple metrics  
+
+---
+
+# 🛠 Technologies Used
+
+| Technology | Purpose |
+|---|---|
+| Python | Programming Language |
+| Pandas | Data Manipulation |
+| NumPy | Numerical Computation |
+| Matplotlib | Data Visualization |
+| Scikit-learn | Machine Learning |
+
+---
+
+# 📊 Machine Learning Model
+
+### Model Used:
+✅ **Linear Regression**
+
+The model predicts car selling prices based on historical car data.
+
+---
+
+# 📈 Evaluation Metrics
+
 The model performance was evaluated using:
 
-Mean Absolute Error (MAE)
-Mean Squared Error (MSE)
-Root Mean Squared Error (RMSE)
-R² Score
-🔍 Key Insights
-Newer cars tend to have higher selling prices.
-Automatic transmission cars are generally more expensive.
-Fuel type affects the resale value.
-Higher kilometers driven usually reduce the car price.
-🚀 Future Improvements
-Applying advanced models like Random Forest or XGBoost
-Feature engineering
-Hyperparameter tuning
-Handling outliers more effectively
-Using larger datasets for better accuracy
-📁 Dataset
-Dataset used:
-CAR DETAILS FROM CAR DEKHO
+- Mean Absolute Error (MAE)
+- Mean Squared Error (MSE)
+- Root Mean Squared Error (RMSE)
+- R² Score
 
-🎯 Objective
-The main goal of this project is to build a machine learning model capable of accurately predicting car prices and demonstrating a complete end-to-end ML workflow.
+---
+
+# 🔍 Key Insights
+
+- 🚘 Newer cars tend to have higher selling prices.
+- ⚙️ Automatic transmission cars are generally more expensive.
+- ⛽ Fuel type affects resale value.
+- 📉 Higher kilometers driven usually reduce car prices.
+
+---
+
+# 🚀 Future Improvements
+
+- Applying advanced models like **Random Forest** or **XGBoost**
+- Feature engineering
+- Hyperparameter tuning
+- Better outlier handling
+- Using larger datasets for improved accuracy
+
+---
+
+# 📁 Dataset
+
+Dataset used:
+
+**CAR DETAILS FROM CAR DEKHO**
+
+---
+
+# 🎯 Objective
+
+The main goal of this project is to build a machine learning model capable of accurately predicting car prices while demonstrating a complete end-to-end ML workflow.
